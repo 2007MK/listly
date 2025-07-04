@@ -1,5 +1,5 @@
-import './styles.css';
+import '../src/css/styles.css';
+import '../src/css/reset.css';
+import '../src/js/render';
 
-const content = document.createElement('div');
-content.textContent = "🚀 Webpack Starter Ready!";
-document.body.appendChild(content);
+

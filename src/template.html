@@ -2,8 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Webpack Starter</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Listly</title>
 </head>
 <body>
+  <div class="container">
+    <div class="sidebar">
+      <h1 class="logo">Listly</h1>
+      <div class="nav-container">
+
+        <ul class="nav-ul">
+          <li>
+            <button class="sidebar-btn" id="inbox">
+              <span class="material-icons">inbox</span>
+              <span>Inbox</span>
+            </button>
+          </li>
+          <li>
+            <button class="sidebar-btn" id="inbox">
+              <span class="material-icons">today</span>
+              <span>Today</span>
+            </button>
+          </li>
+          <li>
+            <button class="sidebar-btn" id="inbox">
+              <span class="material-icons">upcoming</span>
+              <span>Upcoming</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="projects-container">
+        <div class="heading-wrapper">
+          <h3>Projects</h3>
+          <button id="new-project-btn">
+            <span class="material-icons">add</span>
+          </button>
+        </div>
+        <ul class="projects-ul">
+          <li>
+            <button class="project-btn">
+              <span class="material-icons">tag</span>
+              <span>default</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main"></div>
+  </div>
 </body>
 </html>
